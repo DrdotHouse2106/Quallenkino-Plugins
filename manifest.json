@@ -156,6 +156,14 @@
     "imageUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/images/quallenkino.png",
     "versions": [
       {
+        "version": "12.63.0.0",
+        "changelog": "Problemberichte aus der TV-App\n- Quallenkino fragt nach mehrfachem Abbruch „Technisches Problem?“ und schickt einen Bericht\n- Neuer Reiter „Problemberichte“ mit offen/erledigt und Notiz\n- Berichte bleiben nur auf dem Server\n- BENÖTIGT Jellyfin 12.0 oder neuer",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Quallenkino-Empfehlungen/main/release/jellyfin-plugin-localrecs-v12.63.0.zip",
+        "checksum": "94157a9effc6d6e971763a590bf90ce0",
+        "timestamp": "2026-11-17T14:00:00Z"
+      },
+      {
         "version": "12.62.1.0",
         "changelog": "Abgebrochene Filme auch nicht als nächster Teil, Auswertung aufgeräumt\n- Gleich abgebrochene Filme nicht mehr als „Nächster Teil“ einer Filmreihe\n- Ab drei Starts ohne Fortschritt dauerhaft zurückgestellt\n- feedback.json: doppelte und verwaiste Einträge werden zusammengeführt\n- BENÖTIGT Jellyfin 12.0 oder neuer",
         "targetAbi": "12.0.0.0",
