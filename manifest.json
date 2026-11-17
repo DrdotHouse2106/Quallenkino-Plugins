@@ -156,6 +156,14 @@
     "imageUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/images/quallenkino.png",
     "versions": [
       {
+        "version": "12.62.0.0",
+        "changelog": "Vorschläge wechseln öfter, Abgebrochenes pausiert\n- Titel, die 14 Tage ungeschaut in der Zeile standen, machen 35 Tage Platz\n- Gestartete und gleich abgebrochene Filme 28 Tage nicht vorschlagen\n- Auswertung übersteht neue Item-IDs (TMDB/IMDb statt Jellyfin-ID)\n- Begründungen abwechslungsreicher\n- BENÖTIGT Jellyfin 12.0 oder neuer",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Quallenkino-Empfehlungen/main/release/jellyfin-plugin-localrecs-v12.62.0.zip",
+        "checksum": "3e1eb9c012e6bd2b1b4fdd67ead99beb",
+        "timestamp": "2026-11-16T12:00:00Z"
+      },
+      {
         "version": "12.61.1.0",
         "changelog": "Welten: bessere persönliche Sortierung\n- Suchbegriffe nur als ganze Wörter, ohne Tippzwischenstände\n- Genre-Grund nur bei Hauptgenres\n- Weit entfernte Neuerscheinungen ohne Bezug weiter hinten\n- BENÖTIGT Jellyfin 12.0 oder neuer",
         "targetAbi": "12.0.0.0",
