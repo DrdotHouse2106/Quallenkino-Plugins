@@ -156,6 +156,14 @@
     "imageUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/images/quallenkino.png",
     "versions": [
       {
+        "version": "12.62.1.0",
+        "changelog": "Abgebrochene Filme auch nicht als nächster Teil, Auswertung aufgeräumt\n- Gleich abgebrochene Filme nicht mehr als „Nächster Teil“ einer Filmreihe\n- Ab drei Starts ohne Fortschritt dauerhaft zurückgestellt\n- feedback.json: doppelte und verwaiste Einträge werden zusammengeführt\n- BENÖTIGT Jellyfin 12.0 oder neuer",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Quallenkino-Empfehlungen/main/release/jellyfin-plugin-localrecs-v12.62.1.zip",
+        "checksum": "8722da1345d4d255780423d8e84d9b34",
+        "timestamp": "2026-11-17T12:00:00Z"
+      },
+      {
         "version": "12.62.0.0",
         "changelog": "Vorschläge wechseln öfter, Abgebrochenes pausiert\n- Titel, die 14 Tage ungeschaut in der Zeile standen, machen 35 Tage Platz\n- Gestartete und gleich abgebrochene Filme 28 Tage nicht vorschlagen\n- Auswertung übersteht neue Item-IDs (TMDB/IMDb statt Jellyfin-ID)\n- Begründungen abwechslungsreicher\n- BENÖTIGT Jellyfin 12.0 oder neuer",
         "targetAbi": "12.0.0.0",
