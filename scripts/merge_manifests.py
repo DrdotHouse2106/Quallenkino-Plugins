@@ -84,12 +84,13 @@ def check_new_packages(plugins, known, url):
 
 
 def repo_prefixes(url):
-    """Erlaubte Paket-Adressen einer Quelle: github.com bzw. raw.githubusercontent.com desselben Repositorys."""
+    """Erlaubte Paket-Adressen einer Quelle: github.com bzw. raw.githubusercontent.com desselben Kontos.
+    Nicht nur desselben Repositorys: nach einer Umbenennung zeigen ältere Versionen noch auf den alten Namen."""
     parts = url.split("/")
     if len(parts) < 5 or parts[2] not in ("raw.githubusercontent.com", "github.com"):
         raise ValueError(f"{url}: Quelle muss auf GitHub liegen")
-    owner, repo = parts[3].lower(), parts[4].lower()
-    return (f"https://github.com/{owner}/{repo}/", f"https://raw.githubusercontent.com/{owner}/{repo}/")
+    owner = parts[3].lower()
+    return (f"https://github.com/{owner}/", f"https://raw.githubusercontent.com/{owner}/")
 
 
 def load_sources():
@@ -124,7 +125,7 @@ def validate(plugins, url, guids=None):
             if not str(version["sourceUrl"]).startswith(ALLOWED_SOURCE_PREFIXES):
                 raise ValueError(f"{url}: {plugin['name']} {version['version']}: sourceUrl außerhalb von DrdotHouse2106 ({version['sourceUrl']})")
             if not str(version["sourceUrl"]).lower().startswith(repo_prefixes(url)):
-                raise ValueError(f"{url}: {plugin['name']} {version['version']}: Paket nicht aus dem Repository der Quelle ({version['sourceUrl']})")
+                raise ValueError(f"{url}: {plugin['name']} {version['version']}: Paket nicht aus dem Konto der Quelle ({version['sourceUrl']})")
         if guids is not None and plugin["guid"].lower() not in guids:
             raise ValueError(f"{url}: {plugin['name']} ({plugin['guid']}) gehört laut sources.json nicht zu dieser Quelle")
 
