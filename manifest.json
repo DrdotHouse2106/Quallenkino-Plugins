@@ -156,6 +156,14 @@
     "imageUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/images/quallenkino.png",
     "versions": [
       {
+        "version": "12.64.0.0",
+        "changelog": "Alle Titel durchstöbern\n- Link ganz unten auf der Startseite (wie in den TV-Apps)\n- Alle Filme und Serien als Banner-Karten, großer Infobereich zum ausgewählten Titel\n- Filter Filme/Serien, Sortierung A–Z, neu, Jahr, Bewertung\n- BENÖTIGT Jellyfin 12.0 oder neuer",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Quallenkino-Empfehlungen/main/release/jellyfin-plugin-localrecs-v12.64.0.zip",
+        "checksum": "6cf044c542bf8f92f5af1bbe6f6468ce",
+        "timestamp": "2026-11-18T14:00:00Z"
+      },
+      {
         "version": "12.63.0.0",
         "changelog": "Problemberichte aus der TV-App\n- Quallenkino fragt nach mehrfachem Abbruch „Technisches Problem?“ und schickt einen Bericht\n- Neuer Reiter „Problemberichte“ mit offen/erledigt und Notiz\n- Berichte bleiben nur auf dem Server\n- BENÖTIGT Jellyfin 12.0 oder neuer",
         "targetAbi": "12.0.0.0",
