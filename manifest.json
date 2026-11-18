@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/images/jellyfin-remote.png",
     "versions": [
       {
+        "version": "1.3.9.0",
+        "changelog": "- Sicherheit: Abmelden in Jellyfin Web meldet auch die Fernbedienung in diesem Browser ab (ihr eigenes Token wird widerrufen und gelöscht)\n- Nach einer abgelaufenen Anmeldung schickt die Fernbedienung keine weiteren Anfragen mit dem ungültigen Token (Diagnose-Timer und API-Client werden beendet)\n- Offline-Speicher behandelt nur noch bekannte App-Dateien – auch wenn die App ohne Plugin im Wurzelverzeichnis einer Adresse liegt\n- iPhone-App: Beim Verbinden per Link wird der Server-Name deutlich hervorgehoben\n- Geräte- und Element-IDs werden in Adressen korrekt kodiert",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/DrdotHouse2106/Quallenkino-Fernbedienung/releases/download/v1.3.9/jellyfin-remote_1.3.9.0.zip",
+        "checksum": "4d0e4d3a18f9f21d35b17a8e44a426fe",
+        "timestamp": "2026-11-18T13:20:45Z"
+      },
+      {
         "version": "1.3.8.0",
         "changelog": "- Sicherheit: Diagnoseprotokoll entfernt Zeilenumbrüche und Steuerzeichen aus Einträgen (keine gefälschten Zeilen), begrenzt Anfragen je Benutzer (60 pro Minute) und lehnt fehlerhafte Anfragen mit 400 statt 500 ab\n- Eine späte Ablehnung eines alten Tokens löscht keine neue Anmeldung mehr\n- Release-Workflow bricht bei einem Konflikt mit main mit Fehler ab, statt grün zu enden\n- README: Für reines HTTP in der iPhone-App eng gefasste Ausnahmen statt `NSAllowsArbitraryLoads`",
         "targetAbi": "12.2.0.0",
