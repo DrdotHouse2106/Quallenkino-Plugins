@@ -164,6 +164,14 @@
     "imageUrl": "https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/images/quallenkino.png",
     "versions": [
       {
+        "version": "12.65.0.0",
+        "changelog": "Sicherheit\n- Profilbild-Icons nur von erlaubten, öffentlichen Adressen\n- Pakete werden jetzt von GitHub gebaut und veröffentlicht\n- BENÖTIGT Jellyfin 12.0 oder neuer",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/DrdotHouse2106/Quallenkino-Empfehlungen/releases/download/v12.65.0/jellyfin-plugin-localrecs-v12.65.0.zip",
+        "checksum": "66f1b8091248712692f96513fcb06bc8",
+        "timestamp": "2026-11-18T13:49:03Z"
+      },
+      {
         "version": "12.64.0.0",
         "changelog": "Alle Titel durchstöbern\n- Link ganz unten auf der Startseite (wie in den TV-Apps)\n- Alle Filme und Serien als Banner-Karten, großer Infobereich zum ausgewählten Titel\n- Filter Filme/Serien, Sortierung A–Z, neu, Jahr, Bewertung\n- BENÖTIGT Jellyfin 12.0 oder neuer",
         "targetAbi": "12.0.0.0",
