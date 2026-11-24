@@ -1,17 +1,17 @@
-# Jellyfin-Plugins
+# Quallenkino-Plugins
 
 [![Spendier mir einen Kaffee](https://img.shields.io/badge/☕_Spendier_mir_einen_Kaffee-PayPal-0070ba?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/DrdotHouse)
 
 *[English version](README.en.md)*
 
-Gemeinsames Plugin-Repository für alle Jellyfin-Plugins von DrdotHouse2106. Statt jedes Plugin-Repository einzeln einzutragen, genügt in Jellyfin **eine** Adresse.
+Gemeinsames Plugin-Repository für alle Quallenkino-Plugins von DrdotHouse2106. Statt jedes Plugin-Repository einzeln einzutragen, genügt in Jellyfin **eine** Adresse.
 
 ## Enthaltene Plugins
 
 | Plugin | Beschreibung | Quelle |
 | --- | --- | --- |
-| **Jellyfin Remote** | Fernbedienung und Mediathek-Browser für Smartphones unter `/remote/` | [Jellyfin-Remote](https://github.com/DrdotHouse2106/Jellyfin-Remote) |
-| **Quallenkino** (Quallenkinoplugin für Jellyfin, früher Local Recommendations) | Persönliche Empfehlungen, Live-TV mit eigenem EPG-Anbieter, Erinnerungen, Profile und Oberfläche im Quallenkino-Stil | [Lokal-Vorschlag-Jellyfin](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin) |
+| **Jellyfin Remote** | Fernbedienung und Mediathek-Browser für Smartphones unter `/remote/` | [Quallenkino-Fernbedienung](https://github.com/DrdotHouse2106/Quallenkino-Fernbedienung) |
+| **Quallenkino** (Quallenkinoplugin für Jellyfin, früher Local Recommendations) | Persönliche Empfehlungen, Live-TV mit eigenem EPG-Anbieter, Erinnerungen, Profile und Oberfläche im Quallenkino-Stil | [Quallenkino-Empfehlungen](https://github.com/DrdotHouse2106/Quallenkino-Empfehlungen) |
 
 ## Installation
 
@@ -19,7 +19,7 @@ Gemeinsames Plugin-Repository für alle Jellyfin-Plugins von DrdotHouse2106. Sta
 2. Name: `DrdotHouse2106`, URL:
 
    ```
-   https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/manifest.json
+   https://raw.githubusercontent.com/DrdotHouse2106/Quallenkino-Plugins/main/manifest.json
    ```
 3. Unter **Plugins → Katalog** die gewünschten Plugins installieren und Jellyfin neu starten.
 

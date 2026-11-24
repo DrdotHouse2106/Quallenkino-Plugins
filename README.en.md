@@ -1,4 +1,4 @@
-# Jellyfin-Plugins
+# Quallenkino-Plugins
 
 [![Buy me a coffee](https://img.shields.io/badge/☕_Buy_me_a_coffee-PayPal-0070ba?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/DrdotHouse)
 
@@ -8,15 +8,15 @@ Combined plugin repository for all Jellyfin plugins by DrdotHouse2106 – add **
 
 ## Plugins
 
-- **Jellyfin Remote** – smartphone remote control and library browser at `/remote/` ([source](https://github.com/DrdotHouse2106/Jellyfin-Remote))
-- **Quallenkino** (Quallenkinoplugin für Jellyfin, formerly Local Recommendations) – personal recommendations, live TV with own guide provider, reminders, profiles and a Quallenkino-style UI ([source](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin))
+- **Jellyfin Remote** – smartphone remote control and library browser at `/remote/` ([source](https://github.com/DrdotHouse2106/Quallenkino-Fernbedienung))
+- **Quallenkino** (Quallenkinoplugin für Jellyfin, formerly Local Recommendations) – personal recommendations, live TV with own guide provider, reminders, profiles and a Quallenkino-style UI ([source](https://github.com/DrdotHouse2106/Quallenkino-Empfehlungen))
 
 ## Installation
 
 In the Jellyfin dashboard go to **Plugins → Repositories → "+"** and add
 
 ```
-https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Plugins/main/manifest.json
+https://raw.githubusercontent.com/DrdotHouse2106/Quallenkino-Plugins/main/manifest.json
 ```
 
 then install the plugins from the catalog and restart Jellyfin.
